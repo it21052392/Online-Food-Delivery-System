@@ -1,0 +1,45 @@
+h1{text-align: center;
+    color: gray;}
+    
+    .container {
+      position: relative;
+      left: 25%;
+      top: 50px;
+      margin-bottom: 50px;
+    }
+    
+    input[type=text]{
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      width: 50%;
+      padding: 14px 22px;
+      margin: 9px 0;
+     box-sizing: border-box;
+    }
+    
+    textarea {
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      background-color: #f8f8f8;
+      width: 50%;
+      height: 160px;
+      padding: 12px 20px;
+      resize: none;
+    }
+    
+    input[type=submit] {
+      color: white;
+      padding: 14px 20px;
+      margin: 9px 0;
+      border: none;
+      border-radius: 20px;
+      width: 50%;
+      background-color: green;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: darkgreen;
+    }

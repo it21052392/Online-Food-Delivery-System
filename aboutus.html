@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/slideshow1.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/imageslider.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,300;0,400;1,200;1,300;1,400&family=Montserrat:wght@100;200;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons -->
+
+    <script
+      src="https://kit.fontawesome.com/5f4515a83f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#" class="nav-logo"
+          ><img class="logo" src="./images/logo.png"></img
+        ></a>
+        <div class="nav-user">
+          <button class="btn-cart btn-cart-outline"><a class="nav-log " href=""><i class="fas fa-cart-plus"></i> CART</a> </button>
+           <div class="dropdown">
+           <button class="dropdown btn-user"> <i class=" fas fa-user fa-4x"></i></button>
+            <div class="dropdown-content">
+              <a href="#">MY ACCOUNT</a>
+              <a href="#">LOGIN</a>
+              <a href="#">SIGN UP</a>
+            </div>
+          </div>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">FOOD</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">OFFERS</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">CONTACT US</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <br>
+    <center><span style="font-size:30px; color:black;">ABOUT US</span></center><br>
+
+    <!--image slider start-->
+    
+    <center>
+    <div class="slider">
+      <div class="slides">
+        <!--radio buttons start-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <!--radio buttons end-->
+        <!--slide images start-->
+        <div class="slide first">
+          <img src="images/abouthotel.png" alt="slidepic1">
+        </div>
+        <div class="slide">
+          <img src="Images/aboutbuffe.png" alt="slidepic2">
+        </div>
+        <div class="slide">
+          <img src="Images/aboutdelivery.png" alt="slidepic3">
+        </div>
+        <div class="slide">
+          <img src="Images/hotelstaff.png" alt="slidepic4">
+        </div>
+        <!--slide images end-->
+        <!--automatic navigation start-->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+        <!--automatic navigation end-->
+      </div>
+      <!--manual navigation start-->
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+      <!--manual navigation end-->
+    </div>
+    <!--image slider end-->
+    </center>
+<script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 4){
+        counter = 1;
+      }
+    }, 5000);
+    </script>
+    <br><br>
+    <div style="margin-right:100px;margin-left:100px;">
+      <span class="main-text" style="font-size:20px;color:black;">
+        <div class="heading1">
+        <span style="font-size: 25px;">Welcome to Ocean08,</span><br><br> Your number one source for all foods. We're dedicated to giving you the very best of food, with a focus on user friendly, quick, and easy payment options.
+
+Founded in 2021 by K.C Silva, Ocean08 has come a long way from its beginnings in Kandy. When K.C Silva first started out, his passion for good foods and great vibes drove them to customer to enjoy the foods in different taste. so that Ocean08 can offer you "Quality food with quick delivery”. We now serve customers all over city and are thrilled that we're able to turn our passion into our own website.
+
+we hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us
+</div>
+<br>
+<br>
+    
+    </div>
+    <footer class="footer">
+      <div class="footer-social">
+        <i class="fab fa-instagram fa-2x"></i>
+        <i class="fab fa-facebook fa-2x"></i>
+        <i class="fab fa-google-plus-g fa-2x"></i>
+        <i class="fab fa-twitter-square fa-2x"></i>
+      </div>
+      <div class="footer-text">
+        <a class="footer-link" href="#">Job opportunities</a>
+        |
+        <a href="#">Our Members</a>
+        |
+        <a href="https://www.google.com/">Terms and conditions</a>
+        |
+        <a href="#">Service Area</a>
+        |
+        <a href="#">Order history</a>
+        |
+        <a href="#">Privacy policy</a>
+        |
+        <a href="#">Rating & reviews</a>
+        |
+        <a href="#">FAQ</a>
+      </div>
+      <div class="copyright">©️2020 Ocean08 All Rights Reserved</div>
+      <div class="payment-icons">
+        <i class="fab fa-cc-mastercard fa-2x"></i>
+        <i class="fab fa-cc-amex fa-2x"></i>
+        <i class="fab fa-cc-visa fa-2x"></i>
+      </div>
+    </footer>
+  </body>
+</html>

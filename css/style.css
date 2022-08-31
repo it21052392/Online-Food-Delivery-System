@@ -1,0 +1,232 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #a6a8a8;
+  font-size: 14px;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+header {
+  background-color: #7fc8a9;
+  padding-left: 3%;
+  padding-right: 3%;
+  height: 140px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #475569;
+}
+
+a::after {
+  color: #000;
+}
+
+/* navigation bar */
+
+.header {
+  border-bottom: 1px solid #e2e8f0;
+  padding-left: 3%;
+  padding-right: 3%;
+  height: 140px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+/* user login */
+
+.nav-user {
+  position: absolute;
+  right: 10rem;
+}
+
+.nav-log {
+  color: #475569;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-block;
+}
+
+.nav-log:hover {
+  color: #141414;
+}
+
+.btn-user {
+  position: absolute;
+  bottom: 50px;
+}
+
+.fa-user:hover {
+  color: #548ca8;
+}
+
+.fa-user {
+  color: #475569;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* cart */
+
+.btn-cart {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000e1b;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  position: relative;
+  bottom: 65px;
+  right: 20px;
+}
+
+.btn-cart-outline {
+  color: #212529;
+  border-color: #212529;
+}
+
+.btn-cart-outline:hover {
+  color: #fff;
+  background-color: #212529;
+  border-color: #212529;
+}
+
+/* nav items */
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 4.5rem;
+  left: 21rem;
+}
+
+.nav-item {
+  margin-left: 5rem;
+}
+
+.nav-link {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #475569;
+}
+
+.nav-link:hover {
+  color: #548ca8;
+}
+
+.nav-logo {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #482ff7;
+}
+
+.logo {
+  width: 45%;
+  position: relative;
+  left: 15px;
+  bottom: 55px;
+}
+
+/* footer */
+
+footer {
+  background-color: #7fc8a9;
+  height: 170px;
+  position: relative;
+  top: 4rem;
+}
+
+.footer-text {
+  text-align: center;
+  padding: 10px;
+}
+
+.copyright {
+  text-align: center;
+  color: #475569;
+}
+
+.payment-icons {
+  text-align: right;
+  color: #475569;
+  padding: 10px;
+}
+
+.fa-cc-visa {
+  padding-right: 10px;
+}
+
+.footer-social {
+  color: #475569;
+  padding: 10px 10px;
+}

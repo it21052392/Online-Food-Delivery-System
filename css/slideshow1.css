@@ -1,0 +1,188 @@
+body {
+  font-family: Verdana, sans-serif;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table {
+  border: 1px solid black;
+  border-radius: 10px;
+  position: relative;
+  left: 1%;
+  bottom: 1%;
+}
+
+.flex-delevery {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.table-card {
+  padding: 1rem;
+  margin: 5rem 5rem;
+}
+
+#mybtn1,
+#mybtn2,
+#mybtn3 {
+  background-color: #212529;
+  color: #f2f2f2;
+  padding: 0.8rem 2rem;
+  font-size: 16px;
+  border: 1px solid;
+  border-color: #212529;
+  border-radius: 1rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+#mybtn1:hover,
+#mybtn2:hover,
+#mybtn3:hover {
+  border-color: #212529;
+  color: #212529;
+  background-color: transparent;
+}
+
+.form {
+  justify-content: center;
+  display: flex;
+}
+form {
+  width: 50%;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  right: 10%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: transparent;
+  border: 1px solid;
+  border-color: #475569;
+  color: #475569;
+  padding: 10px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #475569;
+  color: #f2f2f2;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 200px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

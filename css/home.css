@@ -1,0 +1,252 @@
+/* search bar */
+
+.serach-bar {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.search {
+    width: 100%;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #212529;
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #212529;
+  }
+  
+  .searchTerm:focus{
+    color: #212529;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #212529;
+    background: #212529;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 30rem;
+    position: absolute;
+    right: 15rem;
+    
+  }
+
+  /* location-btn */
+
+  .location-btn {
+    background-color: transparent;
+    color: #212529;
+    padding: 0.8rem 2rem;
+    margin: 0 3rem ;
+    font-size: 16px;
+    border: 1px solid;
+    border-color: #212529;
+    border-radius: 3rem;
+    cursor: pointer;
+  }
+  .location-btn:hover {
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+    
+  }
+
+  .location {
+    position: absolute;
+    right: 1rem;
+    display: inline-block;
+  }
+
+  .location-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .location-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .location-content a:hover {
+      background-color: #f1f1f1
+    }
+
+    .location:hover .location-content {
+        display: block;
+ }
+
+ h1.search-box {
+    font-family: "Montserrat", sans-serif;
+    padding-left: 2rem;
+    font-size: large;
+    color: #212529;
+  }
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin: 30px 35px 100px;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 30px 35px 5px;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+
+/* flex item boxes */
+
+* {
+    box-sizing: border-box;
+}
+
+hr {
+    margin: 0;
+}
+
+.items-flex-container {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.flex-item-left {
+    padding: 10px;
+    flex: 40%;
+    margin-left: 50px;
+}
+
+.flex-item-right {
+    padding: 10px;
+    flex: 40%;
+    margin-right: 50px;
+}
+
+
+/* item images */
+
+.item-img {
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    padding: 10px 15px;
+    margin-right: 15px;
+    float: left;
+}
+
+.item-name {
+    text-align: left;
+    line-height: 2px;
+    font-size: 3rem;
+}
+
+.btn-addcart {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #f1f1f1;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #0dc51a;
+    border: 1px none;
+    padding: 0.5rem 1rem;
+    font-size: 1.8rem;
+    border-radius: 0.5rem;
+    position: relative;
+    right: 130px;
+}
+
+.btn-addcart:hover {
+    border: 1px solid;
+    border-color: #171717;
+    background-color: transparent;
+    color: #171717;
+}
+
+
+/* Skip/Next button */
+
+.btn-div {
+    padding: 5rem 10rem;
+    justify-content: center;
+    display: flex;
+}
+
+.btn-next {
+    background-color: #171717;
+    border: 1px solid;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.btn-next:hover {
+    border: 1px solid;
+    border-color: #171717;
+    background-color: transparent;
+    color: #171717;
+}
+
+.btn-skip {
+    background-color: #171717;
+    border: 1px solid;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.btn-skip:hover {
+    border: 1px solid;
+    border-color: #171717;
+    background-color: transparent;
+    color: #171717;
+}
+
+#logout{
+  float: right;
+}
+

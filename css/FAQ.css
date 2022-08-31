@@ -1,0 +1,52 @@
+ h1{
+     color:black;
+     text-align: center;
+
+ }
+
+
+.question{
+   text-align:center;
+   color:black;
+   
+ }
+
+ 
+#para1{
+    text-align: center ;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+#para2{
+    text-align: center ;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+#para3{
+    text-align: center ;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+#para4{
+    text-align: center ;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+.qbtn{
+   position: relative;
+}
+
+.find-ask{
+    color: rgba(27, 21, 21, 0.589);
+    margin-left: 7%;
+
+}
+
+
+
+
+

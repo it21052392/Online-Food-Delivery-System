@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/slideshow1.css">
+    <link rel="stylesheet" href="./css/home.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,300;0,400;1,200;1,300;1,400&family=Montserrat:wght@100;200;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons -->
+
+    <script
+      src="https://kit.fontawesome.com/5f4515a83f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#" class="nav-logo"
+          ><img class="logo" src="./images/logo.png"></img
+        ></a>
+
+
+        <div class="nav-user">
+          <button class="btn-cart btn-cart-outline"><a class="nav-log " href=""><i class="fas fa-cart-plus"></i> CART</a> </button>
+           <div class="dropdown">
+           <butto class="dropdown btn-user"> <i class=" fas fa-user fa-4x"></i></button>
+            <div class="dropdown-content">
+              <a href="#">MY ACCOUNT</a>
+              <a href="#">LOGIN</a>
+              <a href="#">SIGN UP</a>
+            </div>
+          </div>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">FOOD</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">OFFERS</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">CONTACT US</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+      <div class="flex-delevery">
+        <table class="table-card" >
+            <tr style="color: red;"><th>DELIVERY PARTNER</th></tr>
+            <tr><td>We are looking for a reliable delivery driver<br> who is concerned with customer satisfaction<br> and transporting items in a safe,timely manner.<br> The delivery driver will pick up and drop off items<br> while adhering to assigned routes and time schedules.<br> You should be willing to work as part of the delivery<br> team in order to ensure that the items are complete<br>packed correctly, and safely delivered to the correct client.
+                <br><br><br><button id="mybtn1">Contact US</button></td></tr>
+        </table>
+        <table class="table-card">
+          <tr style="color: red;"><th>CHIEF</th></tr>
+          <tr><td>We are looking for a Chef to join our team and prepare<br>  delicious meals for our customers. Chef responsibilities<br>  include studying recipes, setting up menus and preparing <br> high-quality dishes. You should be able to delegate tasks <br> to kitchen staff to ensure meals are prepared in a timely manner.<br>  You should be familiar with sanitation regulations.<br>  If you have experience with advanced cooking techniques<br>  and non-traditional ingredients, we’d like to meet you. Ultimately,<br>  you’ll prepare and deliver a complete menu that delights our guests.
+            <br><br><button id="mybtn2">Contact US</button></td></td></tr>
+      </table>
+      <table class="table-card" >
+          <tr style="color: red;"><th>DELIVERY PARTNER</th></tr>
+          <tr><td>Accomplishes department objectives by managing staff;<br> planning and evaluating department activities. Maintains <br>staff by recruiting, selecting, orienting, and training employees.<br> Ensures a safe, secure, and legal work environment. <br>Develops personal growth opportunities.<br><br><br><br><br><br><button id="mybtn3">Contact US</button></td></td></tr>
+      </table>
+
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+      
+        <!-- Modal content -->
+        <div class="modal-content">
+            <img src="./images/logo.png" alt="logo" width="25%">
+          <span class="close">&times;</span>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+      
+      </div>
+
+      <script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("mybtn1");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("mybtn2");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+        // Get the button that opens the modal
+        var btn = document.getElementById("mybtn3");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <footer class="footer">
+      <div class="footer-social">
+        <i class="fab fa-instagram fa-2x"></i>
+        <i class="fab fa-facebook fa-2x"></i>
+        <i class="fab fa-google-plus-g fa-2x"></i>
+        <i class="fab fa-twitter-square fa-2x"></i>
+      </div>
+      <div class="footer-text">
+        <a class="footer-link" href="#">Job opportunities</a>
+        |
+        <a href="#">Our Members</a>
+        |
+        <a href="https://www.google.com/">Terms and conditions</a>
+        |
+        <a href="#">Service Area</a>
+        |
+        <a href="#">Order history</a>
+        |
+        <a href="#">Privacy policy</a>
+        |
+        <a href="#">Rating & reviews</a>
+        |
+        <a href="#">FAQ</a>
+      </div>
+      <div class="copyright">©️2020 Ocean08 All Rights Reserved</div>
+      <div class="payment-icons">
+        <i class="fab fa-cc-mastercard fa-2x"></i>
+        <i class="fab fa-cc-amex fa-2x"></i>
+        <i class="fab fa-cc-visa fa-2x"></i>
+      </div>
+    </footer>
+  </body>
+</html>
